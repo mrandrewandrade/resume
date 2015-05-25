@@ -1,0 +1,148 @@
+%!TEX TS-program = xelatex
+\documentclass[]{friggeri-cv}
+\usepackage{afterpage}
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{fontawesome} 
+\usepackage{unicode-math}
+\usepackage{array}
+
+\usepackage{fontspec}
+
+\def\faLinux{{\FA\symbol{"F17C}}}
+\def\faSE{{\FA\symbol{"F18D}}}
+\def\faSkype{{\FA\symbol{"F17E}}}
+\def\github{{\FA\symbol{"F092}}}
+\hypersetup{
+    pdftitle={},
+    pdfauthor={},
+    pdfsubject={},
+    pdfkeywords={},
+    colorlinks=false,       % no lik border color
+   allbordercolors=white    % white border color for all
+}
+\addbibresource{bibliography.bib}
+\RequirePackage{xcolor}
+\definecolor{pblue}{HTML}{0395DE}
+
+\begin{document}
+\header{Andrew}{Andrade}
+      {\href{mailto:andrew@andrewandrade.ca}{\textbf{andrew@}}\href{http://www.mrandrewandrade.com/?utm_source=pm_resume&utm_medium=pm_resume&utm_campaign=pm_resume}{andrewandrade.ca}}
+      
+% Fake text to add separator      
+\fcolorbox{white}{gray}{\parbox{\dimexpr\textwidth-2\fboxsep-2\fboxrule}{%
+.....
+}}
+
+% In the aside, each new line forces a line break
+%\begin{aside}
+%  \section{Links}
+%    All \href{http://mrandrewandrade.com#projects}{\bf Projects} \\
+%    Software: \href{https://github.com/mrandrewandrade}{\bf Github} \\
+%    Hardware: \href{http://www.hackster.io/mrandrewandrade}{\bf Hackster} \\
+%    Data Science: \href{https://www.kaggle.com/users/225242}{\bf Kaggle} \\
+%    \href{https://www.linkedin.com/in/andrewandrade}{\bf LinkedIn}\\
+%    \href{https://www.facebook.com/mrandrewandrade}{\bf Facebook}\\
+%    \href{https://twitter.com/mrandrewandrade}{\bf Twitter} \\
+    
+  \section{Tel \& Skype}
+    +39 329 7216527
+    neoben86
+    ~
+  \section{Mail}
+    \href{mailto:carmine.benedetto@gmail.com}{\textbf{carmine.benedetto@}\\gmail.com}
+    \href{mailto:carmine@carminebenedetto.net}{\textbf{carmine@}\\carminebenedetto.net}
+    ~
+  \section{Web \& Git}
+    \href{http://www.carminebenedetto.net}{carminebenedetto.net}
+    \href{https://bitbucket.org/neoben}{bitbucket.org/neoben}
+    \href{https://github.com/neoben}{github.com/neoben}
+    ~
+  \section{Programming}
+    ~
+  \section{OS Preference}
+    \textbf{GNU/Linux}\includegraphics[scale=0.40]{img/5stars.png}
+    \textbf{Unix}\includegraphics[scale=0.40]{img/4stars.png}
+    \textbf{MacOS}\includegraphics[scale=0.40]{img/2stars.png}
+    \textbf{Windows}\includegraphics[scale=0.40]{img/1stars.png}
+    ~
+  \section{Personal Skills}    ~
+\end{aside}
+
+%\section{Industry Experience \normal(Selected) \small --\href{http://mrandrewandrade.com/#experience}{See full here}}
+\section{Industry Experience }
+\begin{entrylist}
+  \entry
+    {05/14 - Now}
+    {PetroPredict Inc.}
+    {Technical Co-founder}
+    {- Grew my crazy idea from MVP to six figure revenue in under 1 year. \\ - Lead 6 person tech team through 2 pivots to deploy our data storage, analytics and reporting tool to an multibillion dollar international oil company}
+  \entry
+    {01/14 - 04/14}
+    {Facebook}
+    {Manufacturing Engineering Intern}
+    {- Lead the production \& buy-in of a testing product to factories in China.\\                                                              
+    - Collaborated with engineers and multiple vendors to manufacture and launch the product which lead to \$1.4 MM cost saving per factory}
+    \entry
+    {08/13 - 12/13}
+    {Peraso Technologies}
+    {Mechanical Team Lead (Consultant)} 
+    {- Managed the design to production of a wireless antenna product as point of contact between management, electrical engineering and vendors\\
+    - Work lead to first to market product which helped company raise \$8MM}
+    \end{entrylist}
+
+%\section{Research \& Leadership Experience (Selected) \small --\href{http://mrandrewandrade.com/#research}{See full here}}
+\section{Industry Experience }
+\begin{entrylist}
+  \entry
+    {11/14 - 04/15}}
+    {SUTD & MIT Research Collaboration}
+    {Self Driving Vehicle Researcher}
+    {\emph{Building a Python Search Engine}}
+\end{entrylist}
+
+\newpage
+
+\begin{aside}
+~
+~
+~
+  \section{Places Lived}
+    ~
+  \section{Languages}
+    \textbf{Italian}\includegraphics[scale=0.40]{img/5stars.png}
+    \textbf{English}\includegraphics[scale=0.40]{img/4stars.png}
+\end{aside}
+
+\section{Publications}
+C. Benedetto, E. Mingozzi, C. Vallati\\
+\textbf{A Handoff Algorithm based on Link Quality Prediction for Mass Transit Wireless Mesh Networks}\\
+\emph{Proceedings of the 18th IEEE Symposium on Computers and Communications (ISCC 2013), Split, Croatia, July 7-10, 2013}
+\\
+\section{Other Info}
+For the Italian job market:\\
+\emph{Si autorizza il trattamento delle informazioni contenute nel curriculum in conformità alle disposizioni previste dal d.lgs. 196/2003. Si dichiara altresì di essere consapevole che, in caso di dichiarazioni non veritiere, si è passibili di sanzioni penali ai sensi del DPR 445/00 oltre alla revoca dei benefici eventualmente percepiti.}
+\\
+\begin{flushleft}
+\emph{January 14th, 2014}
+\end{flushleft}
+\begin{flushright}
+\emph{Carmine Benedetto}
+\end{flushright}
+
+%%% This piece of code has been commented by Karol Kozioł due to biblatex errors. 
+% 
+%\printbibsection{article}{article in peer-reviewed journal}
+%\begin{refsection}
+%  \nocite{*}
+%  \printbibliography[sorting=chronological, type=inproceedings, title={international peer-reviewed conferences/proceedings}, notkeyword={france}, heading=subbibliography]
+%\end{refsection}
+%\begin{refsection}
+%  \nocite{*}
+%  \printbibliography[sorting=chronological, type=inproceedings, title={local peer-reviewed conferences/proceedings}, keyword={france}, heading=subbibliography]
+%\end{refsection}
+%\printbibsection{misc}{other publications}
+%\printbibsection{report}{research reports}
+
+\end{document}
