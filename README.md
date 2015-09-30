@@ -1,4 +1,4 @@
-# Andrew Andrade's résumés
+# Andrew Andrade's Résumés
 
 The résumés of Andrew Andrade.
 
