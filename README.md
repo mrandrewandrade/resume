@@ -2,7 +2,7 @@
 
 The résumés of Andrew Andrade.
 
-## Manufacturing Resume
+## [Manufacturing Resume](manufacturing-resume/andrew-andrade-manufacturing.pdf) 
 Based on [alykhank/resume](https://github.com/alykhank/resume)
 
 ## Project/Product Management Resume
