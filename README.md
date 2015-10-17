@@ -1,13 +1,5 @@
-# Andrew Andrade's Résumés
+# Github Pages Branch for Andrew Andrade's Résumés
 
-The résumés of Andrew Andrade.
+This is the Github pages branch for my resumes.  See the [master branch](https://github.com/mrandrewandrade/resumes) for the actual resumes.
 
-## [Manufacturing Résumé](andrew-andrade-manufacturing.pdf)    
-![Résumé Preview](https://raw.githubusercontent.com/mrandrewandrade/resumes/master/manufacturing_thumbnail.png)    
-Based on [alykhank/resume](https://github.com/alykhank/resume)
 
-## Project/Product Management Résumé
-Based on [mjresume](https://github.com/MinghaoJ/mjresume) 
-
-## Data Science Résumé
-Based on [deedy-resume](https://github.com/deedydas/Deedy-Resume)
