@@ -1,14 +1,11 @@
 # Andrew Andrade's Résumés
 
-The résumés of Andrew Andrade.
+The résumés of Andrew Andrade.  You can download them all from [mrandrewandrade.com/resumes](http://mrandrewandrade.com/resumes) or [here directly](https://github.com/mrandrewandrade/resumes/zipball/master)
 
 ## [Manufacturing Résumé](http://mrandrewandrade.com/resumes/andrew-andrade-manufacturing.pdf)    
-Based on [alykhank/resume](https://github.com/alykhank/resume)
 
 ## Project/Product Management Résumé
 Coming soon!
-Based on [mjresume](https://github.com/MinghaoJ/mjresume) 
 
 ## Data Science Résumé
 Coming soon!
-Based on [deedy-resume](https://github.com/deedydas/Deedy-Resume)
